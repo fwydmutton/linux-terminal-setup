@@ -56,9 +56,15 @@ Edit the JSON file
 
 Open it:
 ```
-nano ~/.config/fastfetch/config.jsonc 
+nano ~/.config/fastfetch/config.jsonc
 ```
-Copy paste the text from setup files/json file
+## Setup and Customization
+- Copy paste the text from setup files/json
+- To add a logo, set the logo path, for example /home/yourname/Pictures/logo.png
+- Adjust height and width as needed
+- Save the file
+- Open the terminal to see changes
+- Restart the terminal if changes do not appear
 
 And you're good to go!
   
