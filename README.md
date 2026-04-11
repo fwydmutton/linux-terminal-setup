@@ -48,7 +48,7 @@ Check it works:
 ```
 fastfetch
 ```
-Create a config file
+## Create a config file
 
 Run:
 ```
