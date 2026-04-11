@@ -19,7 +19,10 @@ fastfetch/config.jsonc → system info display
 ![image alt](https://github.com/fwydmutton/linux-terminal-setup/blob/b75a7c514ee8539911976cdccb15b82a2db3e85c/Screenshot_20260411_081712-1.png)
 
 ## Editing Bashrc
-- After editing the bashrc file from setup file. Run the command source ```~/.bashrc to save the bashrc file's source
+- After editing the bashrc file from setup file. Run the command source
+
+  ```~/.bashrc
+  to save the bashrc file's source
 
 ## Installing Fastfetch
 On Fedora or Nobara:
