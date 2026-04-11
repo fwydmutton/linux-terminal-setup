@@ -19,6 +19,11 @@ fastfetch/config.jsonc → system info display
 ![image alt](https://github.com/fwydmutton/linux-terminal-setup/blob/b75a7c514ee8539911976cdccb15b82a2db3e85c/Screenshot_20260411_081712-1.png)
 
 ## Editing Bashrc
+- Run the command
+  ```
+  nano ~/.bashrc
+  ```
+  And copy paste the text from Setup Files/basrc
 - After editing the bashrc file from setup file. Run the command source
 
   ```
@@ -59,7 +64,7 @@ Open it:
 nano ~/.config/fastfetch/config.jsonc
 ```
 ## Setup and Customization
-- Copy paste the text from setup files/json
+- Copy paste the text from Setup files/json
 - To add a logo, set the logo path, for example /home/yourname/Pictures/logo.png
 - Adjust height and width as needed
 - Save the file
