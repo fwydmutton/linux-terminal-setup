@@ -21,34 +21,43 @@ fastfetch/config.jsonc → system info display
 ## Editing Bashrc
 - After editing the bashrc file from setup file. Run the command source
 
-  ```~/.bashrc
+  ```
+  ~/.bashrc
+`
   to save the bashrc file's source
 
 ## Installing Fastfetch
 On Fedora or Nobara:
+```
 sudo dnf install fastfetch
-
+```
 On Ubuntu or Debian:
+```
 sudo apt install fastfetch
-
+```
 On Arch:
+```
 sudo pacman -S fastfetch
-
+```
 Check it works:
+```
 fastfetch
-
+```
 Create a config file
 
 Run:
+```
 fastfetch --gen-config
-
+```
 This creates:
 ~/.config/fastfetch/config.jsonc
 
 Edit the JSON file
 
 Open it:
+```
 nano ~/.config/fastfetch/config.jsonc 
+```
 Copy paste the text from setup files/json file
 
 And you're good to go!
