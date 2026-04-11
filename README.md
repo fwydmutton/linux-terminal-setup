@@ -28,8 +28,8 @@ fastfetch/config.jsonc → system info display
 
   ```
   ~/.bashrc
-`
-  to save the bashrc file's source
+
+- To save the bashrc file's source
 
 ## Installing Fastfetch
 On Fedora or Nobara:
