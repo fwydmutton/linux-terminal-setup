@@ -57,9 +57,9 @@ fastfetch --gen-config
 This creates:
 ~/.config/fastfetch/config.jsonc
 
-Edit the JSON file
+## Edit the JSON file
 
-Open it:
+Run:
 ```
 nano ~/.config/fastfetch/config.jsonc
 ```
