@@ -10,6 +10,8 @@ Simple guide to set up a clean terminal using bash and fastfetch. (Beginner Frie
 - Auto fastfetch on startup
 - Audio info and media player info
 
+# Need to download font from [here](https://www.nerdfonts.com/font-downloads)otherwise the icons won't be printed on the terminal. You can choose whichever font you like, but it must be from Nerdfonts.
+
   ## Files
 
 bash/.bashrc → shell config  
