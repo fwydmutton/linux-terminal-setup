@@ -71,5 +71,5 @@ nano ~/.config/fastfetch/config.jsonc
 - Open the terminal to see changes
 - Restart the terminal if changes do not appear
 
-And you're good to go!
+And you're good to go!!!
   
