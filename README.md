@@ -1,6 +1,6 @@
 ## Linux Terminal Setup
 
-Simple guide to set up a clean terminal using bash and fastfetch. (Beginner Friendly)
+Simple guide to set up a clean terminal using bash and fastfetch, (Beginner Friendly).
 
 ## Features
 
