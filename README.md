@@ -1,4 +1,4 @@
-## Linux Terminal Setup
+# Linux Terminal Setup
 
 Simple guide to set up a clean terminal using bash and fastfetch, (Beginner Friendly).
 
@@ -79,11 +79,47 @@ Now lets add more taste to the terminal by adding starship to the terminal.
 ## Install Starship
 
 Fedora
-```sudo dnf install starship
+```
+sudo dnf install starship
 ```
 Arch
-```sudo pacman -S starship
+```
+sudo pacman -S starship
 ```
 Debian or Ubuntu
-```curl -sS https://starship.rs/install.sh
- | sh```
+```
+curl -sS https://starship.rs/install.sh
+ | sh
+```
+## Enable it in your shell
+
+Bash
+```
+echo 'eval "$(starship init bash)"' >> ~/.bashrc
+
+source ~/.bashrc
+```
+Zsh
+```
+echo 'eval "$(starship init zsh)"' >> ~/.zshrc
+source ~/.zshrc
+```
+Fish
+```
+echo 'starship init fish | source' >> ~/.config/fish/config.fish
+```
+## Basic config file
+
+## Create config folder
+```
+mkdir -p ~/.config
+```
+## Create config file
+```
+nano ~/.config/starship.toml
+```
+The deffault location for the toml file is:
+
+## home/.config/starship.toml
+
+## After creating the config file copy paste the starship.toml from setup files. To customize your Os Choose from the symbols and copy paste at the top. For default I'm using Fedora, so the first symbol under os symbols is Fedora, but you can customize it to your liking.
