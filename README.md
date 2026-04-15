@@ -73,5 +73,17 @@ nano ~/.config/fastfetch/config.jsonc
 - Open the terminal to see changes
 - Restart the terminal if changes do not appear
 
-And you're good to go!!!
-  
+# STARSHIP CONFIG
+Now lets add more taste to the terminal by adding starship to the terminal.
+
+## Install Starship
+
+Fedora
+```sudo dnf install starship
+```
+Arch
+```sudo pacman -S starship
+```
+Debian or Ubuntu
+```curl -sS https://starship.rs/install.sh
+ | sh```
