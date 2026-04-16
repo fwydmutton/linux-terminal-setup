@@ -7,6 +7,7 @@ Simple guide to set up a clean terminal using bash and fastfetch, (Beginner Frie
 - Clean bash configuration
 - Fastfetch system info on startup
 - Custom aliases
+- Starship syntax
 - Auto fastfetch on startup
 - Audio info and media player info
 
@@ -124,3 +125,35 @@ The deffault location for the toml file is:
 ## home/.config/starship.toml
 
 ## After creating the config file copy paste the starship.toml from setup files. To customize your Os Choose from the symbols and copy paste at the top. For default I'm using Fedora, so the first symbol under os symbols is Fedora, but you can customize it to your liking.
+
+
+---
+
+# For .zshrc users you can add highlighting syntax (optional).
+
+## Install the plugin.
+
+On Fedora or similar:
+```
+sudo dnf install zsh-syntax-highlighting
+```
+On Arch:
+```
+sudo pacman -S zsh-syntax-highlighting
+```
+Manual install:
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+ ~/.zsh/zsh-syntax-highlighting
+```
+## Add it to your config.
+
+Open your .zshrc and put this at the very bottom:
+```
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+```
+If you installed manually:
+```
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+```
+Order matters. The above two commands should be added at the last of the .zshrc below fastfetch and starship init.
